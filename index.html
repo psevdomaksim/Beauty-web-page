@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <title>Beauty</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, user-scalable=yes" />
+    <link
+      rel="apple-touch-icon"
+      sizes="76x76"
+      href="./images/favicon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./images/favicon/favicon-16x16.png"
+    />
+    <link rel="manifest" href="./images/favicon/site.webmanifest" />
+    <link
+      rel="mask-icon"
+      href="./images/favicon/safari-pinned-tab.svg"
+      color="#5bbad5"
+    />
+    <meta name="msapplication-TileColor" content="#00aba9" />
+    <meta name="theme-color" content="#ffffff" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <!--   header -->
+    <header class="header">
+      <!--   top-line -->
+
+      <nav class="top-line">
+        <ul class="top-line__menu">
+          <li><a href="#">Доставка</a></li>
+          <li><a href="#">Оплата</a></li>
+          <li><a href="#">Отзывы</a></li>
+          <li><a href="#">Вопрос-ответ</a></li>
+          <li><a href="#">Контакты</a></li>
+        </ul>
+      </nav>
+
+      <!-- second-line -->
+      <nav class="second-line">
+        <div class="wrapper">
+          <div class="flex-wrapper">
+            <div class="logo-img">
+              <a href="#"><img src="./images/logo.png" alt="logo" /></a>
+            </div>
+
+            <span class="logo-text">BEAUTY</span>
+            <form class="search-form">
+              <img class="second-line__icon" src="./images/search.png" />
+              <input class="second-line__input" name="search" type="search" />
+            </form>
+            <span class="second-line__telephone">8 (812) 123-45-67</span>
+            <div class="second-line__button">Обратный звонок</div>
+          </div>
+        </div>
+        <hr />
+
+        <ul class="second-line__main-menu">
+          <li><a href="#">Парикмахерская</a></li>
+          <li><a href="#">Барбершоп</a></li>
+          <li><a href="#">Маникюр</a></li>
+          <li><a href="#">Педикюр</a></li>
+          <li><a href="#">Массаж</a></li>
+          <li><a href="#">Мебель</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!--    main -->
+
+    <main class="main">
+      <!--  intro -->
+      <section class="intro">
+        <div class="wrapper">
+          <div class="flex-wrapper">
+            <div class="intro-block">
+              <h2 class="intro-block__header">Супер кресло</h2>
+              <span class="intro-block__text"
+                >Текст акции всегда отражает суть, а не просто болтовню, поэтому
+                внимательнее</span
+              >
+              <div class="intro-block__button">Подробнее</div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- goods -->
+      <section class="goods">
+        <div class="wrapper">
+          <div class="goods-header">Специальные предложения</div>
+          <div class="flex-wrapper">
+            <figure class="good-block">
+              <a href="#"
+                ><img
+                  class="good-block__image"
+                  src="./images/good.jpg"
+                  alt="image"
+              /></a>
+              <figcaption class="good-block__description">
+                Парикмахерское кресло «Норм» гидравлическое
+              </figcaption>
+              <span class="good-block__cost">9 900 ₽</span>
+              <div class="good-block__button">Купить</div>
+            </figure>
+
+            <div class="good-block">
+              <a href="#"
+                ><img
+                  class="good-block__image"
+                  src="./images/good.jpg"
+                  alt="image"
+              /></a>
+              <span class="good-block__description"
+                >Парикмахерское кресло «Норм» гидравлическое</span
+              >
+              <span class="good-block__cost">9 900 ₽</span>
+              <div class="good-block__button">Купить</div>
+            </div>
+
+            <div class="good-block">
+              <a href="#"
+                ><img
+                  class="good-block__image"
+                  src="./images/good.jpg"
+                  alt="image"
+              /></a>
+              <span class="good-block__description"
+                >Парикмахерское кресло «Норм» гидравлическое</span
+              >
+              <span class="good-block__cost">9 900 ₽</span>
+              <div class="good-block__button">Купить</div>
+            </div>
+
+            <div class="good-block">
+              <a href="#"
+                ><img
+                  class="good-block__image"
+                  src="./images/good.jpg"
+                  alt="image"
+              /></a>
+              <span class="good-block__description"
+                >Парикмахерское кресло «Норм» гидравлическое</span
+              >
+              <span class="good-block__cost">9 900 ₽</span>
+              <div class="good-block__button">Купить</div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- cards -->
+      <section class="cards">
+        <div class="wrapper">
+          <div class="flex-wrapper">
+            <div class="card">
+              <div class="card__info">
+                <h3 class="card-info__header">Получайте бонусы и подарки</h3>
+                <span class="card-info__description"
+                  >Каждый месяц разыгрываем 10 000 рублей для наших
+                  клиентов</span
+                >
+                <input
+                  class="card-info__input"
+                  type="email"
+                  name="email"
+                  placeholder="Введите e-mail"
+                />
+              </div>
+              <img class="card-icon__envelope" src="./images/envelope.png" />
+            </div>
+
+            <div class="card">
+              <div class="card__info">
+                <h3 class="card-info__header">Заходите к нам</h3>
+                <span class="card-info__description"
+                  >Более 300 магазиновпо всей России</span
+                >
+                <div class="card-info__button">Карта магазинов</div>
+              </div>
+              <img class="card-icon__truck" src="./images/truck.png" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- brands -->
+      <section class="brands">
+        <div class="wrapper">
+          <table class="brands-table">
+            <tr>
+              <td class="brands-table__cell">
+                <a href="#"> <img src="images/brand.png" alt="brand" /> </a>
+              </td>
+              <td class="brands-table__cell">
+                <a href="#"> <img src="images/brand.png" alt="brand" /> </a>
+              </td>
+              <td class="brands-table__cell">
+                <a href="#"> <img src="images/brand.png" alt="brand" /> </a>
+              </td>
+              <td class="brands-table__cell">
+                <a href="#"> <img src="images/brand.png" alt="brand" /> </a>
+              </td>
+            </tr>
+            <tr>
+              <td class="brands-table__cell">
+                <a href="#"> <img src="images/brand.png" alt="brand" /> </a>
+              </td>
+              <td class="brands-table__cell">
+                <a href="#"> <img src="images/brand.png" alt="brand" /> </a>
+              </td>
+              <td class="brands-table__cell">
+                <a href="#"> <img src="images/brand.png" alt="brand" /> </a>
+              </td>
+              <td class="brands-table__cell">
+                <a href="#"> <img src="images/brand.png" alt="brand" /> </a>
+              </td>
+            </tr>
+            <tr>
+              <td class="brands-table__cell">
+                <a href="#"> <img src="images/brand.png" alt="brand" /> </a>
+              </td>
+              <td class="brands-table__cell">
+                <a href="#"> <img src="images/brand.png" alt="brand" /> </a>
+              </td>
+              <td class="brands-table__cell">
+                <a href="#"> <img src="images/brand.png" alt="brand" /> </a>
+              </td>
+              <td class="brands-table__cell">
+                <a href="#"> <img src="images/brand.png" alt="brand" /> </a>
+              </td>
+            </tr>
+          </table>
+        </div>
+      </section>
+
+      <!-- goods -->
+      <section class="goods">
+        <div class="wrapper">
+          <div class="goods-header">Вы недавно смотрели</div>
+          <div class="flex-wrapper">
+            <div class="good-block">
+              <a href="#"
+                ><img
+                  class="good-block__image"
+                  src="./images/good.jpg"
+                  alt="image"
+              /></a>
+              <span class="good-block__description"
+                >Парикмахерское кресло «Норм» гидравлическое</span
+              >
+              <span class="good-block__cost">9 900 ₽</span>
+              <div class="good-block__button">Купить</div>
+            </div>
+
+            <div class="good-block">
+              <a href="#"
+                ><img
+                  class="good-block__image"
+                  src="./images/good.jpg"
+                  alt="image"
+              /></a>
+              <span class="good-block__description"
+                >Парикмахерское кресло «Норм» гидравлическое</span
+              >
+              <span class="good-block__cost">9 900 ₽</span>
+              <div class="good-block__button">Купить</div>
+            </div>
+
+            <div class="good-block">
+              <a href="#"
+                ><img
+                  class="good-block__image"
+                  src="./images/good.jpg"
+                  alt="image"
+              /></a>
+              <span class="good-block__description"
+                >Парикмахерское кресло «Норм» гидравлическое</span
+              >
+              <span class="good-block__cost">9 900 ₽</span>
+              <div class="good-block__button">Купить</div>
+            </div>
+
+            <div class="good-block">
+              <a href="#"
+                ><img
+                  class="good-block__image"
+                  src="./images/good.jpg"
+                  alt="image"
+              /></a>
+              <span class="good-block__description"
+                >Парикмахерское кресло «Норм» гидравлическое</span
+              >
+              <span class="good-block__cost">9 900 ₽</span>
+              <div class="good-block__button">Купить</div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!--   footer  -->
+    <footer class="footer">
+      <!--  footer categories -->
+
+      <section class="footer-categories">
+        <div class="wrapper">
+          <div class="flex-wrapper">
+            <div class="footer-category">
+              <h3 class="footer-category__header">Популярные категории</h3>
+              <ul class="footer-category__list">
+                <li><a href="#"> Насадки </a></li>
+                <li><a href="#"> Инструменты </a></li>
+                <li><a href="#"> Гель-лаки </a></li>
+                <li><a href="#"> Дизайн </a></li>
+                <li><a href="#"> Наращивание </a></li>
+                <li><a href="#"> Оборудование </a></li>
+              </ul>
+            </div>
+
+            <div class="footer-category">
+              <h3 class="footer-category__header">Популярные категории</h3>
+              <ul class="footer-category__list">
+                <li><a href="#"> Насадки </a></li>
+                <li><a href="#"> Инструменты </a></li>
+                <li><a href="#"> Гель-лаки </a></li>
+                <li><a href="#"> Дизайн </a></li>
+                <li><a href="#"> Наращивание </a></li>
+                <li><a href="#"> Оборудование </a></li>
+              </ul>
+            </div>
+
+            <div class="footer-category">
+              <h3 class="footer-category__header">Популярные категории</h3>
+              <ul class="footer-category__list">
+                <li><a href="#"> Насадки </a></li>
+                <li><a href="#"> Инструменты </a></li>
+                <li><a href="#"> Гель-лаки </a></li>
+                <li><a href="#"> Дизайн </a></li>
+                <li><a href="#"> Наращивание </a></li>
+                <li><a href="#"> Оборудование </a></li>
+              </ul>
+            </div>
+
+            <div class="footer-category">
+              <h3 class="footer-category__header">Популярные категории</h3>
+              <ul class="footer-category__list">
+                <li><a href="#"> Насадки </a></li>
+                <li><a href="#"> Инструменты </a></li>
+                <li><a href="#"> Гель-лаки </a></li>
+                <li><a href="#"> Дизайн </a></li>
+                <li><a href="#"> Наращивание </a></li>
+                <li><a href="#"> Оборудование </a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+      <hr />
+
+      <!--   footer menu  -->
+
+      <section class="footer-menu">
+        <div class="wrapper">
+          <div class="flex-wrapper">
+            <div class="footer-social-icons">
+              <a href="#" class="social-icon">
+                <i class="fab fa-youtube"></i>
+              </a>
+              <a href="#" class="social-icon">
+                <i class="fab fa-vk"></i>
+              </a>
+              <a href="#" class="social-icon">
+                <i class="fab fa-facebook-f"></i>
+              </a>
+              <a href="#" class="social-icon">
+                <i class="fab fa-instagram"></i>
+              </a>
+            </div>
+            <span class="footer-address"
+              >198555, Невский пр. 140, офис 140</span
+            >
+            <span class="footer-telephone">8 (812) 123-45-67</span>
+            <div class="footer-button">Обратный звонок</div>
+          </div>
+        </div>
+      </section>
+
+      <!--   footer copyright  -->
+
+      <section class="footer-copyright">
+        <div class="wrapper">
+          <div class="flex-wrapper">
+            <span
+              >Лучший магазин (с) 2019 Все права защищены. Интернет-магазин
+              оборудования для салонов красоты</span
+            >
+            <span>Политика конфиденциальности</span>
+          </div>
+        </div>
+      </section>
+    </footer>
+  </body>
+</html>
